@@ -55,7 +55,9 @@ body, html {
     width: calc(33.33% - 20px);
     margin: 20px 0;
     background-color: #8d2d2d;
-    box-shadow: -5px 5px 15px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: -32px -19px 10px 3px #000000;
+-moz-box-shadow: -32px -19px 10px 3px #000000;
+box-shadow: -32px -19px 10px 3px #000000;
     border-radius: 8px;
     overflow: hidden;
     transition: transform 0.1s ease-in-out;
